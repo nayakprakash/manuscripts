@@ -1,0 +1,52 @@
+#+DATE: Feb 4 2016
+#+Author: Prakash Nayak
+#+Title: Testing Org Ref 
+#+EMAIL: nayakprakash@gmail.com
+#+OPTIONS: toc:nil
+
+ 
+* Introduction:  
+ This is an ambitious project after 2
+ months.of struggle to get emacs org
+ mode.working on win 7 and am not sure it
+ is gonna
+ work.cite:hamming09:_autom_image_to_world_regis,calderon15:_whats_new_orthop_oncol
+cite:Sutherland2003UNIVAC,Karthik2001Analysis,Taylor2003Influence
+multiple citations cite:Sutherland2003UNIVAC
+
+* Methods :  
+To create a folder named research with subfolders named todo, done, papers and notes. The idea is to
+1. have papers with all pdfs named by their bibtex keys
+2. notes have tagged links to their respective pdfs and have properties with their bibtex keys as customized IDs
+3. todo has ongoing work and finally
+4. done has done work.
+A new citation with notes.org link.I want to cite:fitzpatrick1998pfredicting
+and also.
+
+** Inserting Images:
+
+Now I am going to add a pic and call it my image using latex attributes.
+
+#+ATTR_LATEX: :width 1cm :caption {my image} 
+[[file:big_chick.png]]
+ And now cite a
+   reference.\cite{Brooks1997Methodology}Note that file link worked
+   because the file was in the same foder as this document, that is
+  the 'todo' folder. So hopefully if I have the .bib file in the same
+   folder as well, things should work smoothly.Except it didn't
+ because the org-latex-export-pdf group function wasn't set right. I
+ changed the value to pdflatex,bibtex,pdflatex,pdflatex or set it to
+ latexmk and both worked well.On an iteration though, latexmk did not
+ do the job, but the prioe pdflatex bibtex combo did.  Lets try, so may be
+   the notes should be in the same folder as well, which means i am
+   going to have just one folder called todo which can have papers ,
+   bib,notes and the manuscript I am working on .Once done with
+   writing it I can move them to the done folder. cite:Karthik2001Analysis,
+* Results : 
+Now I am gonna try a second reference.\cite{Jacobson1999Towards}
+Note that i did not have to type \printbibliography to get the
+references. All other basic Latex Markups or attributes work well. I love this. Victory at last!!
+
+
+bibliographystyle:unsrt
+bibliography:bibtest.bib

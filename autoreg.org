@@ -1,0 +1,105 @@
+#+Title:Autoregistration in navigated bone tumor surgery. 
+#+date: 11 Feb 2016
+#+OPTIONS: toc:nil
+
+#+latex_header: \usepackage{float}
+#+latex_header: \usepackage{graphicx}
+#+latex_header: \usepackage{authblk} 
+
+#+latex_header: \author[1]{Michelle Arkhangorodsky}
+# michelle.arkhangorodsky@rmp.uhn.ca
+#+latex_header: \author[1]{Jimmy Qiu}
+# jimmy.qiu@rmp.uhn.on.ca
+#+latex_header: \author[1]{Michael Daly}
+# michael.daly@rmp.uhn.on.ca
+#+latex_header: \author[1,2]{Prakash Nayak}
+# nayakprakash@gmail.com
+#+latex_header: \author[1]{Harley Chan}
+# harley.chan@rmp.uhn.on.ca
+#+latex_header: \author[1]{Robert Weersink}
+# robert.weersink@rmp.uhn.on.ca
+#+latex_header: \author[1]{David Jaffray}
+# david.jaffray@rmp.uhn.on.ca
+#+latex_header: \author[1]{Jonathan Irish}
+# jonathan.irish@uhn.ca
+#+latex_header: \author[1,2]{Peter Ferguson}
+# pferguson@mtsinai.on.ca
+#+latex_header: \author[1,2]{Jay Wunder}
+# jwunder@mtsinai.on.ca
+#+latex_header: \affil[1]{Guided Therapeutics (GTx) Program, Princess Margaret Cancer Centre}
+#+latex_header: \affil[2]{Division of Musculoskeletal Oncology, Mount Sinai Hospital}
+
+
+
+
+* Introduction 
+The tracker registration process is the key stone step in image-guided surgery, but can
+often be time consuming and frustrating while hampering workflow. When applied
+to bone tumor surgery, anatomical points are often unavailable while surface
+matching forces unnecessary surgical exposure of 'normal'adjacent
+uninvolved bony anatomy. This study
+presents the development, testing and clinical validation of a novel "anatomy
+agnostic" metal-free tool to achieve reliable and consistent automatic
+registration as validated with low fiducial and target registration
+errors(FRE and TRE repectively). The system leverages the availability
+of Cone-Beam CT (iCBCT) system in the operating room(Zeego, Siemens Healthcare, Germany).
+* Methods
+Tools made of Ultem (amorphous thermoplastic polyetherimide (PEI)
+resin) with known fixed geometry and attached reflective markers were
+designed.The 'auto-reg' tools were placed on the patient's skin or on the operating table beside the patient ensuring that both the tumor and the tools were visible in the iCBCT imaging
+field of view(Figure 1). The points corresponding to the auto-reg
+tool geometry were then accurately identified on the CT image. The
+3D spatial coordinates of the auto-reg tools and the tracker (a dynamic
+reference base fixed to patient's bone anatomy) were also captured at the same instance by an
+infrared camera (NDI Polaris,Waterloo,Canada)(Figure 2). Registration was then
+easily achieved as both the  image and tracker coordinates of the auto-reg tools
+were known. This process involved no surgeon interaction and registration was
+possible before making the surgical incision.The registration process was depicted and
+validated using fiducial and target registration error (FRE and TRE) maps.
+ 
+
+
+
+* Results
+To date this novel technique has been used clinically on 6 patients with
+extremity tumors as a part of a larger study to validate a novel surgical
+navigation platform using iCBCT imaging. The ability to achieve
+registration prior to making a surgical incision and without requiring
+surgeon interaction to physically identify bony points, was found to
+be a significant benefit which enabled a seamless workflow when using
+iCBCT. The process brought down the mean registration time to less than 2 minutes once CT images were
+captured (which took an average of ~7 mins).The absence of metal
+artifacts and the ability to position the 'auto-reg' tools on or off
+the patient allowed the freedom in obtaining desired optimal
+fiducial configurations resulting in registration errors of less than
+1 mm:mean TRE=0.90 +/- 0.24mm(standard deviation) and mean FRE =
+0.86mm+/-0.23(standard deviation)(Figure 3). 
+
+
+
+* Conclusions
+A novel method for automatic registration has been developed that is anatomy agnostic
+and free of metal artifact which allows freedom in achieving optimal fiducial
+placement.Using this system registration is  possible before making
+the surgical incision and
+without surgeon interaction, and demonstrated consistent and
+reliably low FRE and TRE in a clinical setting for extremity bone tumor
+navigation using intra-operative cone beam CT imaging.
+* Funding Sources
+This work is supported by the Strobele Family Guided Therapeutics Fund at
+the Princess Margaret Cancer Foundation.
+
+#+attr_latex: :width 10cm 
+#+caption:Ultem tools with known fixed geometry and attached reflective spheres.
+label:aregtool
+file:~/research/todo/figures/aregtools2.jpg
+
+#+attr_latex: :width 13cm 
+#+caption:Setup showing the registration tools in the CT field of view with the overhead infrared camera capturing its spatial coordinates.
+label:setup
+file:~/research/todo/figures/setup.png
+
+#+attr_latex: :width 10cm 
+#+CAPTION: Target registration error (TRE) map showing the green zone with error less than 1mm.
+label:tre
+file:~/research/todo/figures/tre2.png

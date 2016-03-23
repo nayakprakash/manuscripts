@@ -1,0 +1,18 @@
+* Error						 :registration:error:TRE:FRE:
+** Automatic registration cite:hamming09
+* Radiation Cancer risk
+** Radiation Exposure From Imaging Tests: Is There an increased  cancer risk?
+cite:nguyen11
+
+4 models1. Linear threshold model 2. Threshold model assumes doses
+beyond 60 mSv 3. Hormesis which assumes adaptability responses within
+DNA repair 4. Hypersensitivity model which is underprotective and
+overestimates risk as non irradiated cells also accumulate DNA damage
+which increases overall pool of damaged cells and thus risk.
+usual background radiation annual in US is 3.6 gy. Mean US exposure
+due to medical imaging is 2 +/-6 mSv. CT angio can have exposures of
+upto 100mSv and LNT predicts that 1 CT angio increases LAR of lung
+cancer in a woman by 0.178% which means 1 /562 woman has a LAR of
+getting lung cancer, bt this data and other epidemiological studies do
+not consider the other confounders like UV radiation,smoking etc while
+estimating this risk.

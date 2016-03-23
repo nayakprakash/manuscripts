@@ -1,0 +1,82 @@
+#+TITLE:Volumetric Target Registration Error colormaps: Going beyond the single metric for surgical navigation accuracy
+#+OPTIONS: toc:nil
+#+latex_header: \usepackage{float}
+#+latex_header: \usepackage{graphicx}
+#+latex_header: \usepackage{authblk} 
+
+#+latex_header: \author[1]{Michelle Arkhangorodsky}
+# michelle.arkhangorodsky@rmp.uhn.ca
+#+latex_header: \author[1,2]{Prakash Nayak}
+# nayakprakash@gmail.com
+#+latex_header: \author[1]{Michael Daly}
+# michael.daly@rmp.uhn.on.ca
+
+#+latex_header: \author[1]{Jimmy Qiu}
+# jimmy.qiu@rmp.uhn.on.ca
+
+#+latex_header: \author[1]{Harley Chan}
+# harley.chan@rmp.uhn.on.ca
+#+latex_header: \author[1]{Robert Weersink}
+# robert.weersink@rmp.uhn.on.ca
+#+latex_header: \author[1]{David Jaffray}
+# david.jaffray@rmp.uhn.on.ca
+#+latex_header: \author[1]{Jonathan Irish}
+# jonathan.irish@uhn.ca
+#+latex_header: \author[1,2]{Peter Ferguson}
+# pferguson@mtsinai.on.ca
+#+latex_header: \author[1,2]{Jay Wunder}
+# jwunder@mtsinai.on.ca
+#+latex_header: \affil[1]{Guided Therapeutics (GTx) Program, Princess Margaret Cancer Centre}
+#+latex_header: \affil[2]{Division of Musculoskeletal Oncology, Mount Sinai Hospital}
+ 
+
+* Introduction 
+Real-time surgical navigation requires the registration of the image
+and tracking coordinate systems.Fiducial
+registration error(FRE) and fiducial configuration
+significantly impact target registration error(TRE)
+distribution. TRE has a direct impact
+on navigation accuracy during tumor surgery where close margins are expected.
+* Purpose
+To provide a dynamic,real time volumetric and surface rendering of TRE
+distribution using a color map of the surgical region of interest.
+
+* Methods
+Once conventional registration is performed using image and tracking coordinates of a defined region of interest,a custom built tumor navigation software iterates over all
+points of the 3D CT image, storing values of TRE for each point(as calculated from the FRE value and the fiducial configuration).To render an intuitive map each point is assigned a discrete color based on its TRE value in millimeters :0-1 is green,1-2 is yellow,2-3 is orange, 3 and higher is red.(Fig1)
+* Results
+The TRE color maps provide instant,dynamic,real-time,intuitive and
+accurate surgeon feedback.It has been successfully used as a tool to
+validate a novel registration method as a part of a larger clinical
+trial using a custom surgical navigation platform for navigation guided
+extremity bone tumor surgery.(Fig2) It provides real time target error
+value at the tool tip at the time of performing osteotomies using
+pointed(burr) or planar(osteotome,saw) cutting tools.(Fig 3)It has
+shown utility in a test bed for pre-operative optimization
+of fiducial configurations for challenging pelvi-sacral tumor
+resections.(Fig4)
+* Conclusions
+TRE color map is a simple yet powerful visualization tool that
+provides meaning and simplifies understanding of the impact of fiducial
+configuration on target error distribution.It is an effective tool for
+surgeons who use K wires or screws as fiducial surrogates to optimize
+their placement for an adequate target error distribution.Surgeons performing complex tumor surgery involving close margins may benefit from an intuitive 3D visualization tool for planning and evaluating navigation registrations.
+* Funding Source
+This work is supported by the Strobele Family Guided Therapeutics Fund at
+the Princess Margaret Cancer Foundation.
+
+#+attr_latex: :width 10cm
+#+CAPTION: Target registration error (TRE) maps with the legend (values in mm), showing the impact of different fiducial configurations
+ file:trelegend.png
+
+#+attr_latex: :width 10cm
+#+CAPTION: Using TRE color map to validate  registration process using novel auto-reg tools .(legend has values in mm)
+ file:tre_autoreg_validation.png
+
+#+attr_latex: :width 10cm
+#+CAPTION:Live TRE map while navigating an osteotome  through a saw bone model of a parosteal osteosarcoma. The TRE value of 1.23mm at the cutting tool tip is shown in the circled sliding bar on the bottom left of the image
+ file:livetre.png
+
+#+attr_latex: :width 10cm
+#+CAPTION:Using TRE color map as a tool to test impact of fiducial configurations and optimize them in anatomically challenging pelvi-sacral surgeries.(legend has values in mm)
+ file:tre_pelvic_fiducialconfig.png

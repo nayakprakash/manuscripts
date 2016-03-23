@@ -1,0 +1,84 @@
+* TODO cite:docquier10,gouin14,barrack12,,victor14
+
+* Abstract
+Patient Specific cutting guides hope to make osteotomy more accurate, decrease operative time and improve
+workflow,there by making reliable and consistent negative margin
+resectionsin select cases with complex osteotomies in anatomically and
+surgically challenging scenarios. This can potentially reduce local
+recurrence rates and provide better outcomes. It can also impact
+salvage of joint and othe rcritical structures and likely improve accuracy or feasibility of reconstruction
+with metal augments, allografts or custom built
+megaprosthesis.
+In the realm of tumor surgery PSI can be cost effective if it improves
+surgical efficiency, accuracy and provide better functional and
+disease outcomes.
+Reports with use of  navigation systems
+have shown improvement in surgical margins and decreased local
+recurrence rates in the short term.cite:gouin14
+
+* Rationale
+Pelvic bone tumor surgery is especially challenging due to complex
+geometry , limited visibility and restricted workspace. Local
+recurrence has been reported in 28 to 35% of cases which is much
+higher than 5 to 10 % for other extremity sacomas.Accurate resections
+with negative margins is highly associated with low local
+recurrence.Studies have demonstrated that free hand cutting of pelvic
+tumors even in the hand of experienced surgeons is not accurate enough
+to give consistent negative margins.
+PSIs have been developed as an alternative to naviagtion with
+applications for arthroplast,pedicle screw insertion,hip arthroplasty,
+corrective osteotomy and bone tumor surgery.
+THe technology has cutting guides designed to fit specific patient
+anatomy at a unique position to facilitate or guide cutting accuracy
+in the desired planes
+
+* Hypothesis
+In the realm of extremity and pelvi-sacral tumor surgery PSI can help
+execute accurate osteotomies, achieve consisten negative margins,  improve
+surgical efficiency and workflow,and provide  provide better functional and
+disease outcomes.
+* Significance scientific benefit
+Achieve consistent negative margin resections while allowing salvage
+of joint and critical structures, improving immediate post operative
+functional outcomes and reduce local recurrence rates.
+* design and methodology
+
+Patients that require complex osteotomies in surgically challeging
+locations will have a CT scan and MRI for planning osteotomy planes on
+a custom built navigation platform which shall be used for a computer
+assisted design (CAD) of a patient specific cutting guide to uniquely
+adapt and fit to the patients bony surface and help guide osteotomy
+planes based off the pre operative plan. The cutting guide shall be
+printed in additive layer (3D printing) fashion and made of
+biocompatible and ISO approved resin called Ultem. Various parameters
+pertaining to the fit and feasibility of the tool shall be
+evaluated. Formal analysis of the planned and executed osteotomy planes
+shall be based of pre and post operative CT images. Evaluation of post
+operative pathology margins shall be recorded. Reconstruction methods
+and percieved benefit of the accurate osteotomies shall be
+noted. Complications, failures or abandonment of the procedure shall
+be analysed.The patients will have follow up as deemed suitable by the
+PI or the co PI pertaining to the diagnosis and the reconstruction
+modality and surveillance for local and systemic surveillance.
+* Outcome measures
+Analysis of negative margin resections. Comparison of planned and
+executed osteotomy planes. Subjective assessment of the fit and
+usability of the cutting guide.Local recurrence and functional outcome
+assesment over time. COmparison with historical control and with cases
+where surgical navigation is used.
+
+* Criteria for prematre withdrawal
+Consistent failure (ambiguous fit) of the PSI to guide the osteotomy
+or consistent positive margins clearly attributed to the poor
+imlementation of the PSI workflow.
+* Inclusion Exclusion criteria
+Any extremity tumor that needs a complex osteotomy for a negative
+margin resection and limb/joint/critical structure salvage
+* Edits
+valuation of the indirect costs of the process beyond
+the costs of the imaging and the manufacturing of the cutting guide.In
+the knee arthroplasty literature the cost benefit analysis of the
+novel procedure were based of its potential to reduce operating time
+and allow time for additional cases and substantially reduce coronal
+malalignment and reduce future health care costs by reducing the
+number of potential future revisions.cite:thienpont15

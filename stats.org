@@ -1,0 +1,53 @@
+* Least Hazard ratios detected with 80% power
+* landmark survival curve
+cumulative probability is a conditional probability where pr3 is
+probability of surviving year 3 + cumulative probability of surving
+year 1 and 2
+* Kaplan Meier and Cox proportional hazard model
+Kaplam meier is Actuarial survival with 4 exceptions.
+1. exact time of death is used instead of an arbitary interval.
+2. survival function is calculated only when an outcome occurs.
+3. curve derived changes every time an outcome occurs even if its
+   within a range
+4. steps on an actuarial graph are equal, not so on a KM curve
+
+assumptions of a survival analysis
+1. identifiable starting point
+2. dichotomous wel defined end point
+3. LTFU should not be related to outcome
+4. to look for secular trend for long recruitment periods
+* Mantel Cox Log Rank test Cox proportional Hazards Model
+powerful non parametric test used on parametric survival data to
+compare between 2 groups.It works like the CHi squared test and
+assumes that if null is true (observed - expected) then the outcomes
+should be distributed in proportion to the number of people at risk in
+both groups.
+
+If Chi square is significant we can look at RR which is significant if
+over 2
+
+in the presence of covariates : we need a test that
+1. handle any number of covariates
+2. treat continuous data as continuous
+3. give a size effect
+
+This is the Cox Proportional Hazard model qt = Dt/Rt , the prop hazard
+at time t is the probability of the event at t , given survival upto t
+and for a specific value of prognostic variable x , x1, x2 etc and x
+can be discrete or continuous.
+
+The assumption is that the effect of x does not change with time, or
+RR for a specif value of X doesn not change over time.
+h (t|x) = c(t) X f(x)
+y = exp(-kt)
+
+so RR = exp (-kt1)/ exp (-kt2) if its 0.67 it says that t is
+protective. longer t1 has decreased the risk by 33 % , so only 2/3 the
+risk at t1
+
+as an example of sample size calculation if for
+alpha 0.05 and beta 0.20 and delta of 2, we need 33 events per group
+and if 25 % of participants are likely to have outcomes then 33/ 25
+=132 participants per group
+
+delta is a ratio of hazard h at a given time of 5 or 10 years.
