@@ -51,3 +51,4 @@ and if 25 % of participants are likely to have outcomes then 33/ 25
 =132 participants per group
 
 delta is a ratio of hazard h at a given time of 5 or 10 years.
+* Survival analysis and Critique of conventional methods
