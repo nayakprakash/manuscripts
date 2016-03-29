@@ -1,3 +1,4 @@
+# \bibliography{~/research/todo/bibtest}
 * Least Hazard ratios detected with 80% power
 * landmark survival curve
 cumulative probability is a conditional probability where pr3 is
@@ -52,3 +53,51 @@ and if 25 % of participants are likely to have outcomes then 33/ 25
 
 delta is a ratio of hazard h at a given time of 5 or 10 years.
 * Survival analysis and Critique of conventional methods
+Fractional polynomial approach to continuous variable
+analysis in cox proportional hazard model.cite:sauerbrei1999
+
+* Cumulative Incidence Competing Risk , Fine and Gray model, Subdistribution Hazard Ratio
+
+** Hazard Ratio
+ An intuitive explanation of the hazard can be given in the situation
+ when time is discrete. In this instance, the hazard at a certain time
+ is the probability to die at that time point in those patients who
+ are still alive (2). In absence of competing risk, there is a 1:1
+ mathematical relation between the hazard function and the survival
+ function.
+
+** Cox proportional Hazard
+For example, smoking increases the hazard to develop dementia, but
+only few smokers will actually develop dementia because of the
+competing effects of death because of cancer or cardiovascular
+diseases. As a result, it could happen that actually fewer smokers
+than nonsmokers will experience dementia (ie, the cumulative incidence
+of dementia is lower in the smoking group), even though the
+cause-specific hazard ratio for the effect of smoking on dementia may
+actually be larger than 1. Assuming that there is a biological
+relation between smoking and dementia, this relation can be found by
+the Cox regression model (ie, the HR is higher than 1 for smokers)
+while the cumulative incidence of dementia is in fact lower in smokers
+because of competing causes of death.
+
+** fine and Gray model
+The Fine and Gray model (9) links the effect of risk factors directly to the cause-specific cumulative incidences of death. In our smoking/dementia example, the Fine and Gray model considers the direct effect of smoking on the cumulative incidence of dementia (which was lower for smokers because of the competing risks). The effects of risk factors are expressed in subdistribution hazard ratios (SHR), where the subdistribution hazard function has a 1:1 relation with the cause-specific cumulative distribution function. An intuitive interpretation of this SHR is difficult, but readers should be reminded that an SHR above 1 corresponds to higher cause-specific event probabilities. In our dementia example, the Fine and Gray model will yield an SHR below 1 as it directly models the cumulative incidence of developing dementia in both subgroups, resulting in a lower risk of dementia for smokers. For a more detailed theoretical background of these models, we refer to Putter et al. (3).
+
+http://www.nature.com/bmt/journal/v40/n4/full/1705727a.html
+http://www.stat.unipg.it/luca/R
+at any point in time, the overall 1-KM is equal to the sum of the CIFs
+for each type of event.3, 4 Moreover, to assess the statistical
+significance of a prognostic factor in a cumulative incidence analysis
+Gray's test5 is one of the appropriate tests to perform.
+
+ http://jnci.oxfordjournals.org/content/108/5/djv366.full
+
+We show that in populations with high frequency of competing events, it is important to consider which method is most appropriate to estimate cause-specific endpoints. We demonstrate that when calculating absolute cause-specific risks the Kaplan-Meier method overestimates risk of the event of interest and that the cumulative incidence competing risks (CICR) method, which takes competing risks into account, should be used instead.
+
+** Etiologic vs predictive research
+we want to highlight the difference between etiological and predictive research questions in the comparison between the Cox proportional hazards model and the Fine and Gray model. In Example 1, the Fine and Gray model yielded rather strange results from an etiologic point of view as it suggests that psychiatric disorders are protective for recurrence. It is very unlikely that there is some biological mechanism in which psychiatric disorders are protective for breast cancer recurrence. More likely, our finding can be explained by the fact that the Fine and Gray analysis incorporates the competing risk of death, which influences the cumulative incidences of recurrence. This makes sense because patients with psychiatric disorders (especially dementia) have an increased risk of dying compared with patients without psychiatric disorders and patients who have died cannot get a breast cancer recurrence anymore. In contrast, the Cox regression model considers the effect on the cause-specific hazards, ie, on the instantaneous risk of recurrence for patients who are still at risk for the event at a certain time point, which is what interested us in this research question.
+Therefore, in etiologic research questions, the Cox regression model is often the most appropriate method. In contrast, for predictive studies, methods that incorporate competing events such as Fine and Gray competing risk regression are more appealing because they provide a single summary value for the association between a risk variable and the cumulative cause-specific risk. In this case, it is important to consider that patients with a large risk of experiencing a competing event are unlikely to develop a breast cancer recurrence. Note that in this Commentary we focused on the choice of the appropriate measures for the effect of risk factors on breast cancer recurrence. Estimates of absolute mortality probabilities for specific causes as functions of risk variables can be obtained from either of the two models. For the Cox model approach, this implies estimating the cause-specific hazard ratios and using the Aalen-Johansen estimator to get the cumulative incidences, a direct extension of the CICR method, which can be carried out in, for example, the R packages mstate and survival (3,17,18). A major advantage of this Cox model approach is that it ensures that the sum of the cause-specific cumulative incidence equals the total cumulative incidence of experiencing any of the endpoints. This is not guaranteed when calculating cumulative incidences using Fine and Gray models. Another statistical argument in favor of modeling the cause-specific hazards using Cox models is that the proportional hazard assumption is often not unreasonable and can straightforwardly be checked. The proportional sub distribution hazard assumption in the Fine and Gray model is unlikely to hold over longer time periods. Moreover, the proportional subdistribution hazard assumptions of the Fine and Gray model will generally not hold for each of the different endpoints, and using Fine and Gray models to calculate absolute mortality probabilities could therefore yield impossible results (19,20). Hence, the Fine and Gray model does have some major limitations that should be taken into account.
+
+These issues that we highlight are especially important for studies in older patients with indolent cancer types such as prostate cancer or hormone receptor-positive breast cancer as the risk of competing mortality is generally large in these studies, especially in studies that require a long period of follow-up (eg, adjuvant studies). In addition, the issue of competing mortality should be considered in other populations with a large frequency of competing events as well, such as populations with many concomitant diseases or a limited performance status, even if these are not limited to older patients. In contrast, the issue of competing mortality does not play a major role in studies that investigate older populations with highly aggressive tumors such as pancreas cancer or lung cancer as the risk of dying from the cancer itself is high in these populations, such that cancer-specific mortality will be almost similar to overall survival. This also applies to studies in the metastatic setting as patients with metastatic disease have a large risk of dying from cancer and follow-up is generally short.
+
+In conclusion, in studies with cause-specific endpoints in populations with a high frequency of competing events, researchers should carefully choose the most appropriate statistical method in order to prevent incorrect interpretation of study results.
