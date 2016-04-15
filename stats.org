@@ -101,3 +101,37 @@ Therefore, in etiologic research questions, the Cox regression model is often th
 These issues that we highlight are especially important for studies in older patients with indolent cancer types such as prostate cancer or hormone receptor-positive breast cancer as the risk of competing mortality is generally large in these studies, especially in studies that require a long period of follow-up (eg, adjuvant studies). In addition, the issue of competing mortality should be considered in other populations with a large frequency of competing events as well, such as populations with many concomitant diseases or a limited performance status, even if these are not limited to older patients. In contrast, the issue of competing mortality does not play a major role in studies that investigate older populations with highly aggressive tumors such as pancreas cancer or lung cancer as the risk of dying from the cancer itself is high in these populations, such that cancer-specific mortality will be almost similar to overall survival. This also applies to studies in the metastatic setting as patients with metastatic disease have a large risk of dying from cancer and follow-up is generally short.
 
 In conclusion, in studies with cause-specific endpoints in populations with a high frequency of competing events, researchers should carefully choose the most appropriate statistical method in order to prevent incorrect interpretation of study results.
+
+* Hazard Ratios
+the hazard is usually denoted by h(t) and is the probability that an
+individual who is under observation at a time t has an event at that
+time. It represents the instantaneous event rate for an individual who
+has already survived to time t.
+The hazard ratio can be calculated to compare groups and, strictly speaking, is the effect on the hazard of
+differences or 'covariates' (for example, drug treatment or control), as estimated by
+regression models which treat the logarithm of the hazard rate as a function of a baseline
+hazard, h0 (t). One method, the Cox model, is the most commonly used multivariate approach for analysing survival time data in medical research. It is based on an assumption that the hazards remain
+proportionately constant and it is more correctly called the Cox
+proportional hazards model.
+a precise description of a hazard rate is the
+'conditional instantaneous event rate
+calculated as a function of time'.
+
+In other words if hazard ratio is 0.77 and median OS is 13.5 mo, at
+time t 77% of patients in the test group have the event compared to
+100% in the control group, or 23 % people have benefited or do not have the
+concernec event. 13.5 mo is median survival , which is when 50 % people had died of disease (if
+OS is the end point)
+
+* Relative risk
+is a measure of how many events have occurred in a study expressed as a ratio
+of the proportion of events occurring in the treatment group compared
+with that in the control group. It is usually calculated at the end of the study and is quoted as having
+occurred over the average or median duration of the trial. One pitfall
+in therapeutic trials is picking a point in time to express the relative risk ratio of an event.
+This can be misleading as it could be used to select the point in time at which there was
+greatest separation between the treatment and the comparator arms. It
+should only be calculated at the end of the clinical trial, and the
+point at which the trial ends or is halted should be prespecified
+(rather than chosen selectively after looking at the results!). Using
+survival data and hazard ratios goes some way to preventing this type of
