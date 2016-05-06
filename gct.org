@@ -1,3 +1,4 @@
+# \bibliography{~/research/todo/bibtest}
 * Introduction
 It is safe and acceptable to currette a benign or a low grade lesion
 provided the recurrence rates are low and reconstruction is reliable
@@ -6,15 +7,28 @@ reconstruct ?  Should I then resect only because I cannot reconstruct
 ? There surely are lesions that I cannot currette, but are there
 lesions I must not currette ?  The underlying assumption to this
 question seems; because currettage usually 'preserves' that it must
-provide more function than resection. When can resection be more
-functional than currettage? By logic and exclusion one concludes that
-lesions to resect are the ones
-1. I cannot currette
-2. I must not currette
-3. I cannot biologically reconstruct.
+provide more function than resection.Is reasonable then to
+accept articular incongruity and eventual arthritis in a joint salvaged
+with biological reconstruction to avoid a megaprosthesis now but have
+potential recurrence and a certain surface arthroplasty later ? When can resection be more
+functional than currettage? Is it reasonable to accept a higher local
+recurrence rate in benign disease for the sake of function and thus recommend curettage?
 
-An exploration of this premise should lead us to a reaonable answer.
+An exploration of this premise should lead us to reaonable answers.
 * Outcomes of Resection vs Currettage
 
 * Has Denosumab changed the landscape
 * Conclusions
+* Scratch
+ cite:turcotte2002 Rate of local control historically has been between 25 to 50 %. Wide
+resection associated with better local control but worse
+morbidity.Most GCTs are benign (50) and located peri-articular.
+cite:sung1982 Recurrence 41.2 % with currettage and 7 % with resection 
+
+cite:prosser2005
+Giant cell tumors of bone are locally agressive benign bone tumors
+with a rare tendency to metastasize. Local recurrence can be
+unpredictable and makes initial choice of treatment
+challenging. Reported local recurrence rates with currettage have
+ranged from 0-47 %; with resection have ranged from blah blah
+*** TODO report resection recurrence rates 
