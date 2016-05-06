@@ -1,28 +1,61 @@
 # \bibliography{~/research/todo/bibtest}
 * Introduction
-It is safe and acceptable to currette a benign or a low grade lesion
-provided the recurrence rates are low and reconstruction is reliable
-and lasting. The question then is when can I currette but not reliably
-reconstruct ?  Should I then resect only because I cannot reconstruct
-? There surely are lesions that I cannot currette, but are there
-lesions I must not currette ?  The underlying assumption to this
-question seems; because currettage usually 'preserves' that it must
-provide more function than resection.Is reasonable then to
-accept articular incongruity and eventual arthritis in a joint salvaged
-with biological reconstruction to avoid a megaprosthesis now but have
-potential recurrence and a certain surface arthroplasty later ? When can resection be more
-functional than currettage? Is it reasonable to accept a higher local
-recurrence rate in benign disease for the sake of function and thus recommend curettage?
+Giant cell tumor of bone affects a young adult population in the age
+group of 20 to 40.cite:turcotte2002 15,57.  It also occurs
+juxta-articular commonly around the knee.  Although it can rarely
+metastasize, local cure and long survival is the rule. Given its
+propensity to be locally aggressive and recurrent, adequacy of initial
+treatment can have lasting impact on risk of local recurrence and
+function.  Factors well known to not have a significant impact on
+local recurrence are....  Factors known to have impact on risk of
+local recurrence are.....  Historically local recurrence with currettage has ranged
+from 25 to 50 %. Although wide resection may lead to lower local
+recurrence it can permanently impair limb function and have higher
+surgical complication rates due to sacrificing a significant segment
+of bone.30,43,61
 
-An exploration of this premise should lead us to reaonable answers.
+Intralesional surgery has accetably low recurrence rates and is
+function preserving making it poular and the default choice when
+feasible.
+Local recurrence is treated in the same manner as if the tumor were
+seen primarily.
+
+In most recent publications over the last decade, referral for a
+recurrent tumor was a significant risk factor for recurrence Tomeno,
+Ochoa, Turcotte. LR rate for primary curettage was as low as 10 %.
+
+Usual indications for resection have been extensive bone destruction,
+large soft tissue mass,poor bne stock that does not allow internal
+fixation despite cement augmentation,inability to preserve joint or
+when sacrificing the bone provides best tumor control and minimal
+functional impairment(eg fibular head).
+
+Positve tumor margin or intra-operative contamination is a known risk
+factor for local recurrence 25,30 in turcotte
 * Outcomes of Resection vs Currettage
 
 * Has Denosumab changed the landscape
 * Conclusions
+In conclusion curettage with or without adjuvants and reconstruction
+allows acceptable local control and excelent function.  Presence of a
+pathological fracture , or sub-optimal curettage in the community
+before referral or multiple recurrences are not indications for
+resection in of itself.Unless extent of soft tissue involvement or
+sheer size precludes it, recurrences can usually be salvaged with
+curettage with reasonable succes rates.  In locations that allow
+acceptable function with resection without reconstruction (rib,
+fibula,ulna) ; or locations where repeated recurrence has made disease
+control or meaningful reconstruction difficult to impossible with
+curettage alone ; and vertebral GCT with significant expansion that makes
+curettage unsafe and risk of recurrence unacceptable high, resection
+may be use as primary modality.Resection is associated with lower
+recurrence rate but higher risk of complication and slightly inferior
+function.  Denosumab has allowed restoration of bone stock and salvage
+in large juxta-articular lesions with poor subchondral bone which
+would likely have been resected in the past.Based on current evidence
+it does not seem to reduce recurrence rates.
 * Scratch
- cite:turcotte2002 Rate of local control historically has been between 25 to 50 %. Wide
-resection associated with better local control but worse
-morbidity.Most GCTs are benign (50) and located peri-articular.
+
 cite:sung1982 Recurrence 41.2 % with currettage and 7 % with resection 
 
 cite:prosser2005
@@ -30,5 +63,41 @@ Giant cell tumors of bone are locally agressive benign bone tumors
 with a rare tendency to metastasize. Local recurrence can be
 unpredictable and makes initial choice of treatment
 challenging. Reported local recurrence rates with currettage have
-ranged from 0-47 %; with resection have ranged from blah blah
-*** TODO report resection recurrence rates 
+ranged from 0-47 %; with resection have ranged from 0-10%
+7 % LR in grade 1,2 29% in grade 3. No other sginificant factor for
+local recurrence. 91 % overall treated successfully with curettage
+alone. Without giving details about 10 % had primary excision with
+eprs or with WLE with only one recurrence in this group.For
+recurrences most resections were done for 3rd recurrence.Functional
+scores were similar but marginally lower in the resection
+group.Regardless of adjuvant used its the efficacy of the initial
+currettage that likely impacts outcome (4,24,28)
+Although mention was made that resection was done in patients with
+extensive disease, no comment was made on objective criteria to
+suggest what aggressive disease means.Recurrence rates do not seem to
+correlate with age, gender , tumor size or distance to articular
+surface (21,2,25) Important factors are width of the surgical window
+(8 )and adequacy of margin 20,21,25. Capanna had a recurrence rate of
+48% with less than 50% and 26 % with more than 50 %
+Recurrence rates are higher with curretage than excision
+20,21,25.  Gitelis 16 reported wide loacl excisions with or without an
+EPR had higher complications and poorer function. MEan functional
+score of 23/30 with enbloc excisions and 29/30 with curettage and
+complication of 33 vs 10 %. Prosse et al had 3% vs 11%.
+No evidence to link histologic grade as given by JAffe and its
+aggressiveness.  Campanacci data showed no correlation between radiologic
+grade and recurrence.2- 21% present with path fracture 3,6,23,27. This
+series had 22.4 %. Presence of fracture does not lead to increased
+recurrence rate.  Drenhoffer 11 path frac can be treated adequately.
+Prosser data shows 100 % success in primary curettage despite a
+recuurence.80% in referred from elsewhere.
+
+cite:turcotte2002
+Rate of local control historically has been between 25 to 50 %. Wide
+resection associated with better local control but worse
+morbidity.Most GCTs are benign (50) and located peri-articular.
+Recurrence rates were similar in resection and curettage group.
+Presence of pathologocal fracture or Campanacci grade 3 were not
+significant risk factors for local recurrence.  Importantly cement was
+more often used in lower grade lesions and bone graft in higher grade
+lesions and in pathological fractures.
