@@ -1,4 +1,6 @@
 # \bibliography{~/research/todo/bibtest}
+* TODO 
+[[todo]]
 * Introduction
 Giant cell tumor of bone affects a young adult population in the age
 group of 20 to 40.cite:turcotte2002 15,57.  It also occurs
@@ -28,32 +30,36 @@ Usual indications for resection have been extensive bone destruction,
 large soft tissue mass,poor bne stock that does not allow internal
 fixation despite cement augmentation,inability to preserve joint or
 when sacrificing the bone provides best tumor control and minimal
-functional impairment(eg fibular head).
+functional impairment(eg fibular head).  Wide resection can be
+associated with higher rate of complications 31 from cite:klenke2011
+and have significant functional impairment 19,26,37.  Reconstruction
+usually necessitates megaprosthesis(22,31,46) or massive allografts (46)
 
 Positve tumor margin or intra-operative contamination is a known risk
 factor for local recurrence 25,30 in turcotte
+
+
 * Outcomes of Resection vs Currettage
 
 * Has Denosumab changed the landscape
 * Conclusions
 In conclusion curettage with or without adjuvants and reconstruction
-allows acceptable local control and excelent function.  Presence of a
+allows acceptable local control and excellent function.  Presence of a
 pathological fracture , or sub-optimal curettage in the community
 before referral or multiple recurrences are not indications for
 resection in of itself.Unless extent of soft tissue involvement or
 sheer size precludes it, recurrences can usually be salvaged with
 curettage with reasonable succes rates.  In locations that allow
 acceptable function with resection without reconstruction (rib,
-fibula,ulna) ; or locations where repeated recurrence has made disease
+fibular head,distal ulna) ; or locations where repeated recurrence has made disease
 control or meaningful reconstruction difficult to impossible with
-curettage alone ; and vertebral GCT with significant expansion that makes
-curettage unsafe and risk of recurrence unacceptable high, resection
-may be use as primary modality.Resection is associated with lower
+curettage alone ; and vertebral GCT... * TODO  Resection is associated with lower
 recurrence rate but higher risk of complication and slightly inferior
 function.  Denosumab has allowed restoration of bone stock and salvage
 in large juxta-articular lesions with poor subchondral bone which
 would likely have been resected in the past.Based on current evidence
-it does not seem to reduce recurrence rates.
+it does not seem to reduce recurrence rates.  Pulmonary metastasis is
+rare and associated with excellent long term outcome and should not by itself create an indication for wide resection.
 * Scratch
 
 cite:sung1982 Recurrence 41.2 % with currettage and 7 % with resection 
@@ -101,3 +107,7 @@ Presence of pathologocal fracture or Campanacci grade 3 were not
 significant risk factors for local recurrence.  Importantly cement was
 more often used in lower grade lesions and bone graft in higher grade
 lesions and in pathological fractures.
+
+cite:klenke2011
+Wide resection ad a lower resection rate than curettage 5 vs 25 %
+ 
