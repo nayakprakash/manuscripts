@@ -5,35 +5,67 @@
 Giant cell tumor of bone affects a young adult population in the age
 group of 20 to 40.cite:turcotte2002 15,57.  It also occurs
 juxta-articular commonly around the knee.  Although it can rarely
-metastasize, local cure and long survival is the rule. Given its
+metastasize, local cure and long survival is the rule.  Given its
 propensity to be locally aggressive and recurrent, adequacy of initial
 treatment can have lasting impact on risk of local recurrence and
-function.  Factors well known to not have a significant impact on
-local recurrence are....  Factors known to have impact on risk of
-local recurrence are.....  Historically local recurrence with currettage has ranged
-from 25 to 50 %. Although wide resection may lead to lower local
-recurrence it can permanently impair limb function and have higher
-surgical complication rates due to sacrificing a significant segment
-of bone.30,43,61
+function.  Intralesional surgery has acceptably low recurrence rates and
+is function preserving making it the default choice when
+feasible.  
+Usual indications for resection have been extensive bone destruction,
+large soft tissue mass,poor bone stock that does not allow internal
+fixation despite cement augmentation,inability to preserve joint or
+when sacrificing the bone provides best tumor control and minimal
+functional impairment(eg fibular head or distal ulna).  
 
-Intralesional surgery has accetably low recurrence rates and is
-function preserving making it poular and the default choice when
-feasible.
-Local recurrence is treated in the same manner as if the tumor were
-seen primarily.
+Local recurrence is treated in the same manner as if the
+tumor were seen primarily.  Factors known to have impact on risk of
+local recurrence are.....  Factors well known to not have a
+significant impact on local recurrence are....
+
+Usual clinical scenarios raising a dilemma of whether to resect or
+curette are
+1. Large juxta-articular tumor with soft tissue mass and poor
+   subchondral bone
+2. Multiply recurrent tumor
+3. Pathological fracture
+4. Pulmonary Metastasis associated with a primary or locally recurrent
+   Giant Cell Tumor of bone
+5. Referral after improper curettage in the community
+6. Referral for a recurrent tumor from the community
+
+Let us consider each of these scenarios .
+
+1. Large juxa-articular tumors with little to no sub-chondral bone
+   with flappy cartilage pose a challenge. Giant cell tumor is well
+   resisted by cartilage and intra-articular tumor extension is
+   unusual.  Articular cartilage with no subchondral bone can be
+   challenging as one requires to balance preservation of cartilage
+   with aggression of disease clearance.  Reconstruction is often
+   supplemented with structural bone graft or cement augmentation to
+   prevent articular collapse.  Some articular stiffness or early
+   onset degenerative arthritis is to be expected.  Despite these
+   challanges local control rates are not significantly worse in most
+   series.  Local recurrences are managed like a primary and eventual
+   cure is possible.  Wide resection can be associated with higher
+   rate of complications 31 from cite:klenke2011 and have significant
+   functional impairment 19,26,37.  Reconstruction usually
+   necessitates megaprosthesis(22,31,46) or massive allografts (46)
+   after sacrificing a significant segment of bone. 30,43,61.  The use
+   of neoadjuvant denosumab for 5 to 6 months or even shorter to allow
+   reconstitution of subchondral and peri-lesional bone that can
+   maintain articular congruity, prevent collapse, prevent an
+   impending fracture and allow a surface to curette against held
+   promise. This has been successfully used to salvage joints that
+   would otherwise have been resected.  This has however not reduced
+   recurrence rates from baseline.  This likely is because Denosumab
+   does not have a biologic activity against the neoplastic stromal
+   cells and presence of ridges post denosumab makes disease clearance
+   more challenging than at baseline.
 
 In most recent publications over the last decade, referral for a
 recurrent tumor was a significant risk factor for recurrence Tomeno,
 Ochoa, Turcotte. LR rate for primary curettage was as low as 10 %.
 
-Usual indications for resection have been extensive bone destruction,
-large soft tissue mass,poor bne stock that does not allow internal
-fixation despite cement augmentation,inability to preserve joint or
-when sacrificing the bone provides best tumor control and minimal
-functional impairment(eg fibular head).  Wide resection can be
-associated with higher rate of complications 31 from cite:klenke2011
-and have significant functional impairment 19,26,37.  Reconstruction
-usually necessitates megaprosthesis(22,31,46) or massive allografts (46)
 
 Positve tumor margin or intra-operative contamination is a known risk
 factor for local recurrence 25,30 in turcotte
@@ -44,7 +76,7 @@ factor for local recurrence 25,30 in turcotte
 * Has Denosumab changed the landscape
 * Conclusions
 In conclusion curettage with or without adjuvants and reconstruction
-allows acceptable local control and excellent function.  Presence of a
+allows good local control and excellent function.  Presence of a
 pathological fracture , or sub-optimal curettage in the community
 before referral or multiple recurrences are not indications for
 resection in of itself.Unless extent of soft tissue involvement or
@@ -109,5 +141,9 @@ more often used in lower grade lesions and bone graft in higher grade
 lesions and in pathological fractures.
 
 cite:klenke2011
-Wide resection ad a lower resection rate than curettage 5 vs 25 %
+Wide resection had a lower recurrence rate than curettage 5 vs 25
+%.Although curettage was in equal proportionsin T1 and T2 tumors,
+proportion of excsions in patients with a path fracture was 47% vs 14%
+in those without. This may underestimate the risk of recurrence in
+path fracture group.
  
