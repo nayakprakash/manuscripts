@@ -5,22 +5,19 @@
 Giant cell tumor of bone affects a young adult population in the age
 group of 20 to 40.cite:turcotte2002 15,57.  It also occurs
 juxta-articular commonly around the knee.  Although it can rarely
-metastasize, local cure and long survival is the rule.  Given its
+metastasize, local cure and disease free survival is the rule.  Given its
 propensity to be locally aggressive and recurrent, adequacy of initial
-treatment can have lasting impact on risk of local recurrence and
+treatment can have lasting impact on the risk of local recurrence and
 function.  Intralesional surgery has acceptably low recurrence rates and
 is function preserving making it the default choice when
 feasible.  
 Usual indications for resection have been extensive bone destruction,
 large soft tissue mass,poor bone stock that does not allow internal
-fixation despite cement augmentation,inability to preserve joint or
+fixation despite bone graft or cement augmentation,inability to
+preserve a joint or
 when sacrificing the bone provides best tumor control and minimal
 functional impairment(eg fibular head or distal ulna).  
 
-Local recurrence is treated in the same manner as if the
-tumor were seen primarily.  Factors known to have impact on risk of
-local recurrence are.....  Factors well known to not have a
-significant impact on local recurrence are....
 
 Usual clinical scenarios raising a dilemma of whether to resect or
 curette are
@@ -28,70 +25,114 @@ curette are
    subchondral bone
 2. Multiply recurrent tumor
 3. Pathological fracture
-4. Pulmonary Metastasis associated with a primary or locally recurrent
+4. Referral for a recurrent tumor after prior sub-optimal curettage from the community
+5. Pulmonary Metastasis associated with a primary or locally recurrent
    Giant Cell Tumor of bone
-5. Referral after improper curettage in the community
-6. Referral for a recurrent tumor from the community
 
 Let us consider each of these scenarios .
 
-1. Large juxa-articular tumors with little to no sub-chondral bone
+** 1. Large juxa-articular tumors with little to no sub-chondral bone
    with flappy cartilage pose a challenge. Giant cell tumor is well
    resisted by cartilage and intra-articular tumor extension is
-   unusual.  Articular cartilage with no subchondral bone can be
+   unusual.  Curetting against articular cartilage with no subchondral bone can be
    challenging as one requires to balance preservation of cartilage
    with aggression of disease clearance.  Reconstruction is often
    supplemented with structural bone graft or cement augmentation to
-   prevent articular collapse.  Some articular stiffness or early
-   onset degenerative arthritis is to be expected.  Despite these
-   challanges local control rates are not significantly worse in most
+   prevent articular collapse.  It can result in some articular stiffness or early
+   onset degenerative arthritis.  Recurrence in the setting of a stiff
+   joint with prior hardware often makes curettage and reconstruction
+   difficult, both from a disease and a function perspective and
+   resection may be prudent.Despite these
+   challenges local control rates are not significantly worse in most
    series.  Local recurrences are managed like a primary and eventual
    cure is possible.  Wide resection can be associated with higher
    rate of complications 31 from cite:klenke2011 and have significant
    functional impairment 19,26,37.  Reconstruction usually
    necessitates megaprosthesis(22,31,46) or massive allografts (46)
    after sacrificing a significant segment of bone. 30,43,61.  The use
-   of neoadjuvant denosumab for 5 to 6 months or even shorter to allow
+   of neoadjuvant denosumab for 5 to 6 months or even shorter period to allow
    reconstitution of subchondral and peri-lesional bone that can
    maintain articular congruity, prevent collapse, prevent an
-   impending fracture and allow a surface to curette against held
-   promise. This has been successfully used to salvage joints that
-   would otherwise have been resected.  This has however not reduced
-   recurrence rates from baseline.  This likely is because Denosumab
-   does not have a biologic activity against the neoplastic stromal
-   cells and presence of ridges post denosumab makes disease clearance
+   impending fracture and allow a surface to curette against has been
+   a successful strategy .  This can be used to salvage joints that
+   would otherwise have been resected. It has however not reduced
+   recurrence rates from baseline.  This is likely because Denosumab
+   does not have biologic activity against the neoplastic stromal
+   cells and presence of ridges post denosumab makes visualization and disease clearance
    more challenging than at baseline.
 
-In most recent publications over the last decade, referral for a
-recurrent tumor was a significant risk factor for recurrence Tomeno,
-Ochoa, Turcotte. LR rate for primary curettage was as low as 10 %.
+** 2. Local recurrence is a
+known risk factor for further recurrences.  It is treated in the same
+manner as if the tumor were seen primarily.  Factors known to have
+impact on risk of local recurrence are soft tissue mass Becker et al
+from Klenke, pathologic fracture O'Donnell.....  Factors well known to not
+have a significant impact on local recurrence are....    Data from various long term studies
+show that despite needing more surgeries , all patients are eventually
+disease free.  Multiple recurrences do not suggest worsening of
+biology or higher grade and thus do not qualify for resection in of
+itself.
 
+** 3. pathologic fracture has been reported to be a risk factor for local recurrence in a few studies
+, but others do not .  Most studies report that local recurrence rates
+are not significantly worse with pathologic fracture.  The propotion
+of resections in the pathologic fracture group is often higher , 47%
+to 14 % in cite:klenke2011 even if not statistically significant
+because of low numbers.  This may underestimate the risk of recurrence
+in that group.  Despite this most studies rightly conclude that
+presence of pathologic fracture by itself is not enough justification
+for resection.  If disease clearance and reconstruction are feasible
+curettage provides good disease control and good function and
+fractures heal well due to robust vascularity.
 
-Positve tumor margin or intra-operative contamination is a known risk
-factor for local recurrence 25,30 in turcotte
+** 4.  Positive tumor
+margin or intra-operative contamination is a known risk factor for
+local recurrence 25,30 in turcotte.  Most studies show that risk of
+further recurrences are high after an episode of local recurrence.
+Thus,recurrence after a prior sub-optimal community curettage often
+raises concerns for the unknown zone of prior contamination.  However,
+recurrence after a prior optimal curettage is no different
+biologically than a prior sub-optimal curettage and thus should be
+treated on its merit.  As mentioned earlier despite tougher curettage,
+reconstruction and higher complications eventual cure is commonly
+seen.  It is reasonable to infer that each recurrence pushes us closer
+to resection not because of worse tumor biology but local soft tissue
+and bone challenges.
 
+** 5. Pulmonary Metastasis associated with a primary or locally recurrent
+   Giant Cell Tumor of bone is exceedingly rare often 0-5% in most
+   series.  It does not signify worse biology.  Outcome is often good
+   with long survivals.  Their management is determined by number,
+   location and symptoms.  When localised and resectable, resection is
+   often chosen.  When symtomatic but unresectable denosumab or
+   bisphosphonates may be recommended.  The challenge with starting
+   systemic treatment is an uncertain end point and goal.  Even
+   unresectable pulmonary metastasis has good long term control and
+   survival and have seldom led to disease related mortality.  The
+   presence of metastasis has no bearing on biology or treatment
+   choice of primary or recurrent tumor.  To re-inforce metastasis
+   does not qualify the primary or recurrent tumor for resetion.
 
-* Outcomes of Resection vs Currettage
-
-* Has Denosumab changed the landscape
 * Conclusions
 In conclusion curettage with or without adjuvants and reconstruction
 allows good local control and excellent function.  Presence of a
 pathological fracture , or sub-optimal curettage in the community
 before referral or multiple recurrences are not indications for
-resection in of itself.Unless extent of soft tissue involvement or
+resection in of itself.  Unless extent of soft tissue involvement or
 sheer size precludes it, recurrences can usually be salvaged with
 curettage with reasonable succes rates.  In locations that allow
 acceptable function with resection without reconstruction (rib,
-fibular head,distal ulna) ; or locations where repeated recurrence has made disease
-control or meaningful reconstruction difficult to impossible with
-curettage alone ; and vertebral GCT... * TODO  Resection is associated with lower
+fibular head,distal ulna) ; or when repeated recurrence has made
+disease control or meaningful reconstruction impossible with curettage
+alone , resection may be prudent.  Resection is associated with lower
 recurrence rate but higher risk of complication and slightly inferior
 function.  Denosumab has allowed restoration of bone stock and salvage
 in large juxta-articular lesions with poor subchondral bone which
-would likely have been resected in the past.Based on current evidence
-it does not seem to reduce recurrence rates.  Pulmonary metastasis is
-rare and associated with excellent long term outcome and should not by itself create an indication for wide resection.
+would likely have been resected in the past.  Based on current
+evidence it does not seem to reduce recurrence rates and may make
+disease clearance challenging.  Metastasis is rare and associated with
+excellent long term outcome and should not by itself be an indication for
+wide resection.
+
 * Scratch
 
 cite:sung1982 Recurrence 41.2 % with currettage and 7 % with resection 
