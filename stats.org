@@ -135,3 +135,33 @@ should only be calculated at the end of the clinical trial, and the
 point at which the trial ends or is halted should be prespecified
 (rather than chosen selectively after looking at the results!). Using
 survival data and hazard ratios goes some way to preventing this type of
+
+* Linear regression
+http://math.usask.ca/~miket/S344D..pdf
+many non linear curves can be put into linear form by appropriate
+transformations. Using dummy variables categorical IVs can be
+incorporated into lenear models. Variable transformation technique can
+convert non linear behaviour into linear behaviour
+http://dss.princeton.edu/training/Regression101.pdf
+http://www.princeton.edu/~otorres/Regression101R.pdf
+
+* ACE reports
+Time to event variables like OS and EFS are reported with HR.
+Dichotomous variables are reported with RR.
+
+** Questions to ask when reading a Trial
+1. Was the allocation sequence adequately generated?
+2. Was it concealed?
+3. Was the provider blinded?
+4. Was the patient blinded?
+5. Was the assessor blnded?
+6. Was the follow up adequate?
+7. Was the study free from selective outcome reporting?
+8. Were the outcomes objective, patient important and assessed in a
+   manner to limit bias?
+9. Was the sample size large to assure a balance of prognosis and
+   number of outcome events?
+10. Was the investigator experience with treatments likely same ?
+* Model building and selection:
+Never let the computer do the thinking for you. Plot data, think about
+a model, fit the model,plot the model, explain the model.
