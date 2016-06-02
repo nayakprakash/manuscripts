@@ -165,3 +165,27 @@ Dichotomous variables are reported with RR.
 * Model building and selection:
 Never let the computer do the thinking for you. Plot data, think about
 a model, fit the model,plot the model, explain the model.
+* Notes on mistake if doing survival analysis and regression
+Imagine 3 people with low grade csa, one has lived 6, other 9 and
+other 15. The differences could be loss of follow up, all cause
+mortality or some other cause.  In reality they all are clinically not
+dissimilar. SO doing a linear regression on them with the aim of
+predicting their survival with Low grade chondrosarcoma as the only
+predcitor seems unnatural and forced as they are unlikely to have
+gaussian or linear distribution. What one really wishes to know is the
+difference in survival to a given point based on the fact that they
+lie in a particular group.  This is where Cox regression or KM is more
+intuitively meaningful beaucse they integrate hazard rates over time
+with instantaneous rates between differetn groups over time helping
+one understand if there is a significant effect.
+* Cox regression proportional hazard model concepts
+https://socserv.socsci.mcmaster.ca/jfox/Books/Companion/appendix/Appendix-Cox-Regression.pdf
+
+youtube videos by ayusha shintamani chinese teacher
+In contrast to relative risks which are
+cumulative over observation time, hazard ratios reflect an instantaneous risk over the study
+period or a subset of the period.
+
+http://www.tbrieder.org/epidata/course_e_ex04_task.pdf
+
+is an even better paper
