@@ -181,11 +181,22 @@ one understand if there is a significant effect.
 * Cox regression proportional hazard model concepts
 https://socserv.socsci.mcmaster.ca/jfox/Books/Companion/appendix/Appendix-Cox-Regression.pdf
 
-youtube videos by ayusha shintamani chinese teacher
+youtube videos by ayumi shintani chinese teacher
 In contrast to relative risks which are
 cumulative over observation time, hazard ratios reflect an instantaneous risk over the study
 period or a subset of the period.
 
 http://www.tbrieder.org/epidata/course_e_ex04_task.pdf
 
-is an even better paper
+is an even better paper.
+
+The usual steps to cox regression are
+coxph() then
+cox.zph() to test for proportionality assumption.
+
+and plot(Survfit)
+
+if assumption of proportional hazards is violated use stratification
+by the culprit factor for re analysis.
+In general good idea to plot, look at data, then model, look at
+results and plot again.

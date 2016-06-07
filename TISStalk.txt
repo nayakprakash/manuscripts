@@ -1,0 +1,78 @@
+TISS talk 
+Hello everyone. Bridging the gaps, translational research in a
+surgical navigation lab is an apt title suggested by one of the
+pillars of this huge collaborative group (GTx group pic) Mike Daly,
+who along with Jimmy Qiu and Michelle have helped bring some of our
+Clinical needs if the surgical Oncology Group particularly orthopedic
+oncology into reality through the development of a surgical planning
+and execution platform. What's new about this, since this technology
+has been perfected by neuro and spine surgeons. What's the problem :
+here's an excerpt from a surgeon who I shall not name, 2 and a half
+hours into a peri acetabular sarcoma, who is ready for registration,
+OH my God, it's been 40 mins, this is crazy, I feel like shooting
+myself in the head! To understand what the surgeon was so frustrated
+about we need to walk ourselves through the usual anatomic landmark
+based registration. So here is how it works. A tracker is rigidly
+fixed to the patient. The camera throws infra red light, which is
+reflected off the passive spheres, thus capturing it's GPS
+coordinates. One picks 7 points on a CT scan that one's confident of
+picking on the patient. Once these match precisely patient anatomy or
+the physical space is registered to image space, navigation is now
+possible. I'll introduce 2 terms here, fiducial registration error,
+this tells how if one has hit the Bulls eye while picking each point
+or if one outside of the dart board. Target Registration Error is the
+exact same concept except this time it points to all points of
+interest. Of course The key gaps which limited a wide acceptance and
+usage by the Oncology has been 3. 1. Registration 2. Problems with
+accuracy of navigation over a large field of view in other words
+having a big field of low target errors. 3. To have an intuitive
+feedback over TRE. With this clear mandate and a lot of brainstorming,
+we came up with a potential solution to all 3. Here is how our
+proposed solution works. As before we fix a tracker on to the
+patient. Next we place these tools, we call them autoreg tools on or
+beside the patient. The camera as usual pucks up the reflection of
+infra red light off the passive spheres. These tools are made of a
+plastic called ultem, are metal free and of a known geometry. Next
+step we run a scan, the modality of scanning is not crucial one could
+use a carm or a CT scanner, what is important is they are seen in the
+field of view as seen on the top right. An algorithm then picks the
+centre of these spheres. Now if we go back to our first picture, we
+notice that we have successfully eliminated the error prone human
+interaction of a happy or frustrated surgeon. The algorithm pucks
+these fiducial in the image, the camera in 3D space, registration is
+done and the fiducial can now be taken out of the surgical
+field. Because these are metal free, there is no artifact and nothing
+to obscure the image, registration can be performed before the
+incision is made. Also we devised an intuitive map to depict target
+registration error. This helps the surgeon know immediately how the
+position of the tools has implemented the distribution of error. This
+gif animation elegantly shows how changing fiducial configuration
+informs changing green zone. If ones in the green zone one can hope to
+hit the Bulls eye consistently. On the red zone, while you throw your
+darts at the board, you actually hit the bartender. This helped us
+think of a Web application to educate and help surgeons decide
+fiducial placement ore operatively to minimize errors. The other big
+gap stems from an inability to communicate to the navigation tech
+nuances of image visualization. There is no effective way to convey
+what you wanna see, and one resorts often to verbose approximations
+like ' I wanna see the fovea end on or see the intersection of the
+fovea with the quadrilateral plate.  While Jimmy was working on a 70 $
+open source camera to help track surgeon movement,  Michelle was
+playing around with it, and we brainstormed on various gestures, some
+that made our wrists ache, others that gave us a headache. But she
+eventually settled on a few usable ones, that were trialled on a few
+summer students and other lab members, before it was stable interface
+to manipulate intra-operative  images thus avoiding some redundant
+conversations.  These were satisfying projects, because they had a
+specific agenda, quick translation from benchside to the operating
+room. And we hope to now employ this consistently on Sarcoma care. And
+also do certain design innovations for superior fiducials that shall
+be customizable for variuos geometries and indications. for Peter
+to play While the GTx lab along with Amir
+Sternheim, the former Gtx Fellow elegantly solved this problem on
+cadaveric and saw bone models and demonstrated that using navigation
+was better than free hand, consistently gave better margins and also
+helped an inexperienced user execute it with precision hinting at the
+educational and training potential of this platform.  We had a clear
+mandate, to translate this to successful OR use, and our solution
+after a
